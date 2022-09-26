@@ -1,20 +1,23 @@
 body {
-    display:flex;
+    display: flex;
     flex-direction: column;
     flex: 1;
 }
 
 .header {
-    background-color: #1F2937;
-    display:flex;
+    display: flex;
     justify-content: space-between;
+}
+.container1,.header {
+    background-color: #1F2937;
     margin: -10px;
     padding: 10px;
 }
+
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
-    display:flex;
+    display: flex;
     align-items: flex-start;
     
 }
@@ -23,6 +26,21 @@ body {
     color: #E5E7EB;
     text-decoration: none;
     list-style: none;
-    display:flex;
+    display: flex;
     gap: 10px;
+}
+.hero {
+
+}
+.hero > h3 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.hero > p {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+.hero > button {
+    background-color: #3882F6;
 }
