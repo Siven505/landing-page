@@ -1,0 +1,28 @@
+body {
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header {
+    background-color: #1F2937;
+    display:flex;
+    justify-content: space-between;
+    margin: -10px;
+    padding: 10px;
+}
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    display:flex;
+    align-items: flex-start;
+    
+}
+.header-links > ul {
+    font-size:18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    list-style: none;
+    display:flex;
+    gap: 10px;
+}
