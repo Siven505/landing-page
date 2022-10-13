@@ -6,12 +6,17 @@ body {
 
 .header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    padding: 0px 270px;
+
 }
 .container1,.header {
     background-color: #1F2937;
+}
+.container1 {
     margin: -10px;
-    padding: 10px;
+    padding: 8px;
 }
 
 .header-logo {
@@ -19,28 +24,98 @@ body {
     color: #F9FAF8;
     display: flex;
     align-items: flex-start;
-    
+    font-weight: bolder;
 }
-.header-links > ul {
+.header-links > ul,a {
     font-size:18px;
     color: #E5E7EB;
     text-decoration: none;
     list-style: none;
     display: flex;
     gap: 10px;
+    text-decoration: none;
 }
 .hero {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
 }
-.hero > h3 {
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding-right: 80px;
+}
+.hero-left > h3 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin: 0px;
 }
-.hero > p {
+.hero-left > p {
     font-size: 18px;
     color: #F9FAF8;
+    margin: 5px;
 }
-.hero > button {
+.top-button > button {
     background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
 }
+
+.hero-right {
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex-basis: 0;
+    
+    max-height: 200px;
+    max-width: 450px;
+    justify-content: center;
+    background-color: grey;
+}
+
+.placeholder {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+.sri {
+
+}
+.quote-containtor {
+    background-color: #E5E7EB;
+    margin: -9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    display:flex;
+    flex-direction: column;
+    
+    max-width: 60rem;
+    align-items: flex-end;
+}
+
+.quote > p {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: oblique;
+    margin: 100px;
+}
+
+.quote > h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -100px;
+    margin-bottom: 100px;
+}
+
