@@ -89,7 +89,8 @@ body {
 .sri {
 
 }
-.quote-containtor {
+
+.quote-container {
     background-color: #E5E7EB;
     margin: -9px;
     display: flex;
@@ -100,9 +101,8 @@ body {
 .quote {
     display:flex;
     flex-direction: column;
-    
-    max-width: 60rem;
-    align-items: flex-end;
+    max-width: 59rem;
+    align-items: center;
 }
 
 .quote > p {
@@ -117,5 +117,6 @@ body {
     font-weight: bold;
     margin-top: -100px;
     margin-bottom: 100px;
+    padding-left: 400px;
 }
 
