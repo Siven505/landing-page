@@ -152,3 +152,11 @@ body {
     padding-left: 400px;
 }
 
+.footer > p {
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 15px;
+    margin: -7px;
+    padding: 25px
+}
